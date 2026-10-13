@@ -1,151 +1,114 @@
-Excel Retail Business Analytics
+# Excel Retail Business Analytics
 
-Project Overview
+**Retail Sales & Profitability Analysis | Microsoft Excel**
 
-This project is a Retail Business Analytics case study built in Microsoft Excel using the Sample Superstore dataset.
+## Project Overview
 
-The workbook is structured to move from the original retail data through data cleaning, KPI analysis, pivot-based analysis, charts, and a final dashboard. The purpose is to understand sales and profitability performance and translate the analysis into clear business insights.
+This project focuses on analyzing retail sales and profitability using the Sample Superstore dataset. The Excel workbook follows a structured analytical workflow, from raw data preparation and cleaning to KPI analysis, PivotTable-based analysis, data visualization, and dashboard development.
 
-Business Objectives
+The objective is to evaluate business performance across different categories, regions, customer segments, sub-categories, and customers, and translate the analysis into actionable business insights.
 
-Analyze overall sales and profitability
+## Business Objectives
 
-Compare performance across categories, regions, and customer segments
+- Analyze overall sales and profitability.
+- Compare performance across product categories, regions, and customer segments.
+- Evaluate year-wise sales performance and trends.
+- Analyze sub-category performance to identify profitable and loss-making areas.
+- Identify high-performing customers and products.
+- Highlight areas requiring business attention.
+- Present key performance indicators and analysis through an interactive Excel dashboard.
 
-Analyze year-wise sales performance
+## Data & Analysis Workflow
 
-Evaluate sub-category performance
+The project follows a structured data analytics workflow:
 
-Identify high-performing customers and products
+**Raw Data → Cleaned Data → KPI Analysis → Pivot Analysis → Charts → Dashboard → Insights**
 
-Highlight areas that require business attention
+Each stage contributes to transforming the original retail data into a structured business analytics solution.
 
-Present the analysis through an Excel dashboard
+## Workbook Structure
 
-Data & Analysis Workflow
+| Worksheet | Purpose |
+|---|---|
+| `Superstore_data` | Contains the original Sample Superstore dataset. |
+| `cleaned_data` | Stores the cleaned and prepared dataset used for analysis. |
+| `KPI_Analysis` | Presents key business performance metrics. |
+| `PIVOT_Analysis` | Contains PivotTable-based analysis of sales and profitability. |
+| `Charts` | Presents visualizations created from summarized data. |
+| `Dashboard` | Combines KPIs and charts into a consolidated dashboard. |
+| `Insights` | Documents key findings and their business implications. |
 
-The workbook follows this structure:
+## Key Analysis Areas
 
-Raw Data → Cleaned Data → KPI Analysis → Pivot Analysis → Charts → Dashboard → Insights
+### 1. Category Performance
+Analyzes sales and profit across the three main product categories to understand their contribution to overall business performance.
 
-Workbook Structure
+### 2. Region Performance
+Compares sales and profitability across regions to identify the strongest-performing region.
 
-Sheet
+### 3. Customer Segment Analysis
+Evaluates sales and profit across customer segments to understand their contribution to business performance.
 
-Purpose
+### 4. Year-wise Sales Analysis
+Examines annual sales performance from 2011 to 2014 to identify growth trends and the strongest sales year.
 
-Superstore_data
+### 5. Sub-category Performance
+Compares sales and profit across sub-categories to identify major contributors and loss-making areas.
 
-Original Sample Superstore dataset
+### 6. Customer Performance
+Analyzes customer-level sales performance to identify customers making significant contributions to overall sales.
 
-cleaned_data
+## Key Findings
 
-Cleaned and prepared dataset used for analysis
+Based on the analysis performed in the workbook:
 
-KPI_Analysis
+- **Top Category:** Technology generates the highest sales and profit among the three main categories.
+- **Top Region:** Central Region generates the highest sales and profit among the regions.
+- **Top Customer Segment:** Consumer Segment generates the highest sales and profit.
+- **Sales Trend:** Sales show a consistent increase from 2011 to 2014, with 2014 recording the highest sales.
+- **Top Sub-category by Sales:** Phones generate the highest sales among sub-categories.
+- **Loss-making Sub-category:** Tables is a significant loss-making sub-category, with a negative profit of approximately **64,083**.
+- **Customer Performance:** Customer-level analysis identifies Tom Ashbrook as a top contributor in sales.
 
-Key business performance metrics
+## Dashboard
 
-PIVOT_Analysis
+The final Excel dashboard brings together key performance indicators, charts, and business analysis into a single presentation layer.
 
-Pivot-based analysis of sales and profitability
+It provides a consolidated view of retail sales and profitability, helping users review business performance across key dimensions without navigating through individual analysis worksheets.
 
-Charts
+## Tools & Techniques
 
-Visual analysis created from the summarized data
+**Tool:** Microsoft Excel
 
-Dashboard
+**Techniques Used:**
+- Data Cleaning and Preparation
+- KPI Analysis
+- Pivot Tables
+- Data Summarization
+- Data Visualization
+- Dashboard Design
+- Business Insights and Interpretation
 
-Final business dashboard for performance monitoring
+## Project Outcome
 
-Insights
+This project transforms retail transaction data into a structured Excel analytics solution. It provides a consolidated view of business performance, identifies strong-performing categories, regions, segments, sub-categories, and customers, and highlights profitability issues that may require further investigation.
 
-Key findings and business implications from the analysis
+The project demonstrates the practical application of Excel for data preparation, business performance analysis, visualization, and insight generation.
 
-Key Analysis Areas
+## Repository Structure
 
-Category Performance
-
-Analyzes sales and profit across product categories.
-
-Region Performance
-
-Compares sales and profit across regions.
-
-Segment Performance
-
-Evaluates sales and profitability across customer segments.
-
-Year-wise Performance
-
-Analyzes yearly sales trends and identifies the strongest year.
-
-Sub-category Performance
-
-Compares sub-categories to identify strong contributors and loss-making areas.
-
-Customer Performance
-
-Identifies customers contributing strongly to overall sales and profitability.
-
-Key Findings
-
-Based on the analysis in the workbook:
-
-Technology generates the highest sales and profit among the three main categories.
-
-Central Region generates the highest sales and profit among the regions.
-
-Consumer Segment generates the highest sales and profit.
-
-Sales show a consistent increase from 2011 to 2014, with 2014 recording the highest sales.
-
-Phones generate the highest sales among sub-categories.
-
-Tables are a significant loss-making sub-category, with a negative profit of approximately 64,083.
-
-Customer-level analysis highlights Tom Ashbrook as a top contributor in sales.
-
-Dashboard
-
-The final Excel dashboard combines the project's KPIs, charts, and business analysis into a single presentation layer for quick performance review.
-
-Tools Used
-
-Microsoft Excel
-
-Key Excel techniques used in the project include:
-
-Data Cleaning
-
-KPI Analysis
-
-Pivot Tables
-
-Data Summarization
-
-Data Visualization
-
-Dashboard Design
-
-Business Insights
-
-Project Outcome
-
-The project transforms retail transaction data into a structured Excel analytics solution. It helps identify strong-performing categories, regions, segments, sub-categories, and customers while also highlighting areas with profitability issues.
-
-Repository Structure
-
+```text
 excel-retail-business-analytics/
 │
-├── Excel_Retail_Business_Analytics
+├── Excel_Retail_Business_Analytics.xlsx
 ├── README.md
 └── project-showcase/
     ├── dashboard-preview.png
     └── insights-preview.png
+```
 
-Author
+## Author
 
-Aman Kumar Ranjan
+**Aman Kumar Ranjan**
 
-Data Analyst | Excel | SQL | Python | Power BI
+Aspiring Data Analyst | Excel | SQL | Python | Power BI
